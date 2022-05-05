@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 2% auto;
+    position: relative;
+    width: 55%;
+    border: 15px solid;
+}
+
+.lab {
+    width: 600px;
+    height: 600px;
+    margin: 5px 0 0 15%;
+    /* background: #000; */
+}
+
+.mouse {
+    position: absolute;
+    width: 40px;
+    right: 90%;
+    top: 0%;
+    z-index: 1;
+    animation-name: mouseXY;
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: backwards;
+    animation-duration: 60s
+}
+
+
+@keyframes mouseXY {
+    0% {
+        left: 0%;
+        top: 0%;
+    }
+
+    2% {
+        top: 0%;
+        left: 32.5%;
+        transform: rotate(25deg);
+    }
+
+    4% {
+        top: 8%;
+        left: 32.5%;
+        transform: rotate(0deg);
+    }
+
+    6% {
+        left: 25.5%;
+        top: 8%;
+        transform: rotate(-10deg);
+    }
+
+    8% {
+        left: 25.5%;
+        top: 15%;
+        transform: rotate(0deg);
+    }
+
+    10% {
+        top: 15%;
+        left: 33%;
+        transform: rotate(10deg);
+    }
+
+    12% {
+        top: 30%;
+        left: 33%;
+        transform: rotate(0deg);
+    }
+
+    14% {
+        top: 23%;
+        left: 33%;
+    }
+
+    16% {
+        top: 23%;
+        left: 25.5%;
+        transform: rotate(-10deg);
+    }
+
+    18% {
+        top: 38%;
+        left: 25.5%;
+        transform: rotate(0deg);
+    }
+
+    20% {
+        top: 38%;
+        left: 33%;
+        transform: rotate(20deg);
+    }
+
+    22% {
+        top: 46%;
+        left: 33%;
+        transform: rotate(0deg);
+    }
+
+    24% {
+        top: 46%;
+        left: 25.5%;
+        transform: rotate(-20deg);
+    }
+
+    26% {
+        top: 83%;
+        left: 25.5%;
+        transform: rotate(0deg);
+    }
+
+    28% {
+        top: 83%;
+        left: 40.5%;
+        transform: rotate(20deg);
+    }
+
+    30% {
+        top: 61%;
+        left: 40.5%;
+        transform: rotate(0deg);
+    }
+
+    32% {
+        top: 61%;
+        left: 58.5%;
+        transform: rotate(20deg);
+    }
+
+    34% {
+        top: 61%;
+        left: 40.5%;
+        transform: rotate(-20deg);
+    }
+
+    36% {
+        top: 83%;
+        left: 40.5%;
+        transform: rotate(0deg);
+    }
+
+    38% {
+        top: 83%;
+        left: 33.5%;
+        transform: rotate(-10deg);
+    }
+
+    40% {
+        top: 53.5%;
+        left: 33.5%;
+        transform: rotate(0deg);
+    }
+
+    42% {
+        top: 53.5%;
+        left: 40.5%;
+        transform: rotate(10deg);
+    }
+
+    44% {
+        top: 30%;
+        left: 40.5%;
+        transform: rotate(0deg);
+    }
+
+    46% {
+        top: 31%;
+        left: 58.5%;
+        transform: rotate(20deg);
+    }
+
+    48% {
+        top: 23%;
+        left: 58.5%;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        top: 23%;
+        left: 67%;
+        transform: rotate(20deg);
+    }
+
+    52% {
+        top: 23%;
+        left: 48.5%;
+        transform: rotate(-20deg);
+    }
+
+    54% {
+        top: 23%;
+        left: 57.5%;
+        transform: rotate(0deg);
+    }
+
+    56% {
+        top: 31%;
+        left: 57.5%;
+        transform: rotate(0deg);
+    }
+
+    58% {
+        top: 30%;
+        left: 40.5%;
+        transform: rotate(-20deg);
+    }
+
+    60% {
+        top: 8%;
+        left: 40.5%;
+        transform: rotate(0deg);
+    }
+
+    62% {
+        top: 8%;
+        left: 75%;
+        transform: rotate(20deg);
+    }
+
+    64% {
+        top: 8%;
+        left: 47.5%;
+        transform: rotate(-20deg);
+    }
+
+    66% {
+        top: 15%;
+        left: 47.5%;
+        transform: rotate(0deg);
+    }
+
+    68% {
+        top: 15%;
+        left: 73%;
+        transform: rotate(20deg);
+    }
+
+    70% {
+        top: 83%;
+        left: 73%;
+        transform: rotate(0deg);
+    }
+
+    72% {
+        top: 46%;
+        left: 73%;
+        transform: rotate(0deg);
+    }
+
+    74% {
+        top: 46%;
+        left: 57%;
+        transform: rotate(-20deg);
+    }
+
+    76% {
+        top: 46%;
+        left: 73%;
+        transform: rotate(20deg);
+    }
+
+    78% {
+        top: 31%;
+        left: 73%;
+        transform: rotate(0deg);
+    }
+
+    80% {
+        top: 31%;
+        left: 65%;
+        transform: rotate(-10deg);
+    }
+
+    82% {
+        top: 38%;
+        left: 65%;
+        transform: rotate(0deg);
+    }
+
+    84% {
+        top: 38%;
+        left: 48.5%;
+        transform: rotate(-20deg);
+    }
+
+    86% {
+        top: 53.5%;
+        left: 48.5%;
+        transform: rotate(0deg);
+    }
+
+    88% {
+        top: 53.5%;
+        left: 65%;
+        transform: rotate(20deg);
+    }
+
+    90% {
+        top: 68.5%;
+        left: 65%;
+        transform: rotate(0deg);
+    }
+
+    92% {
+        top: 68.5%;
+        left: 48.5%;
+        transform: rotate(-20deg);
+    }
+
+    94% {
+        top: 76.5%;
+        left: 48.5%;
+        transform: rotate(0deg);
+    }
+
+    96% {
+        top: 76.5%;
+        left: 65%;
+        transform: rotate(20deg);
+    }
+
+    98% {
+        top: 83.5%;
+        left: 65%;
+        transform: rotate(0deg);
+    }
+
+    99% {
+        top: 83.5%;
+        left: 48.5%;
+        transform: rotate(-20deg);
+    }
+
+
+    100% {
+        transform: rotate(0deg);
+        transform: scale(1.5);
+    }
+}
+
+
+.cheese1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    animation-name: cheeseOp;
+    animation-duration: 60s;
+    animation-delay: 19s;
+    bottom: 33%;
+    right: 38%;
+}
+
+.FixCheese1 {
+    position: absolute;
+    animation-name: FixCheese;
+    animation-delay: 19.5s;
+    animation-duration: 40.5s;
+    bottom: 5%;
+    right: 12%;
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+}
+
+.cheese2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    animation-name: cheeseOp;
+    animation-delay: 37s;
+    animation-duration: 60s;
+    top: 9%;
+    right: 22%;
+}
+
+.FixCheese2 {
+    position: absolute;
+    animation-name: FixCheese;
+    animation-delay: 37.5s;
+    animation-duration: 22.5s;
+    bottom: 5%;
+    right: 8%;
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+}
+
+.cheese3 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    animation-name: cheeseOp;
+    animation-delay: 42s;
+    animation-duration: 60s;
+    bottom: 10%;
+    right: 22%;
+}
+
+.FixCheese3 {
+    position: absolute;
+    animation-name: FixCheese;
+    animation-delay: 42.5s;
+    animation-duration: 17.5s;
+    bottom: 5%;
+    right: 4%;
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+}
+
+
+.mouseTrap{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    animation-name: cheeseOp;
+    animation-delay: 59s;
+    animation-duration: 60s;
+    bottom: 8%;
+    right: 45%;
+    opacity: 0;
+}
+
+
+
+@keyframes cheeseOp {
+    0% {
+        opacity: .5;
+    }
+
+    2% {
+        opacity: 0;
+    }
+
+    99% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes FixCheese {
+    0% {
+        opacity: .5;
+    }
+
+    2% {
+        opacity: 1;
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
